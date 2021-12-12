@@ -4,29 +4,51 @@ $carousel-bg-color: green;
 $carousel-btn-bg-color: black;
 $info-bg-color: darkblue;
 
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
 .carousel-images {
     display: none;
 }
 
 .header {
     background: $header-bg-color;
+    height: 10%;
 }
 
 .main {
     background: $main-bg-color;
+    height: 90%;
 }
 
 .carousel {
     background: $carousel-bg-color;
     position: relative;
+    height: 40%;
 }
 
 .carousel-buttons {
     background: $carousel-btn-bg-color;
     position: absolute;
+    top: 0;
+    margin-top: 50%;
 }
 
 .info {
    width: 80%;
+   height: 60%;
    background: $info-bg-color;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.full {
+    width: 100%;
 }
