@@ -1,0 +1,32 @@
+$header-bg-color: lightpink;
+$main-bg-color: skyblue;
+$carousel-bg-color: green;
+$carousel-btn-bg-color: black;
+$info-bg-color: darkblue;
+
+.carousel-images {
+    display: none;
+}
+
+.header {
+    background: $header-bg-color;
+}
+
+.main {
+    background: $main-bg-color;
+}
+
+.carousel {
+    background: $carousel-bg-color;
+    position: relative;
+}
+
+.carousel-buttons {
+    background: $carousel-btn-bg-color;
+    position: absolute;
+}
+
+.info {
+   width: 80%;
+   background: $info-bg-color;
+}

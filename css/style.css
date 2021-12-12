@@ -1,0 +1,28 @@
+.carousel-images {
+  display: none;
+}
+
+.header {
+  background: lightpink;
+}
+
+.main {
+  background: skyblue;
+}
+
+.carousel {
+  background: green;
+  position: relative;
+}
+
+.carousel-buttons {
+  background: black;
+  position: absolute;
+}
+
+.info {
+  width: 80%;
+  background: darkblue;
+}
+
+/*# sourceMappingURL=style.css.map */
