@@ -1,6 +1,10 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
 .body {
   height: 100vh;
   width: 100vw;
+  background-color: white;
+  overflow: hidden;
+  font-family: "Kumbh Sans", "Poppins", "Roboto", "Montserrat", sans-serif;
 }
 
 .carousel-images {
@@ -8,43 +12,17 @@
 }
 
 .header {
-  background: lightpink;
   height: 10%;
 }
 
 .main {
-  background: skyblue;
   height: 90%;
 }
-
-.carousel {
-  background: green;
-  position: relative;
+.main .carousel-section {
   height: 40%;
 }
-
-.carousel-buttons {
-  background: black;
-  position: absolute;
-  top: 0;
-  margin-top: 50%;
-}
-
-.info {
-  width: 80%;
+.main .info {
   height: 60%;
-  background: darkblue;
-}
-
-.col-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: stretch;
-}
-
-.full {
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

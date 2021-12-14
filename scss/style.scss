@@ -1,12 +1,28 @@
-$header-bg-color: lightpink;
-$main-bg-color: skyblue;
-$carousel-bg-color: green;
-$carousel-btn-bg-color: black;
-$info-bg-color: darkblue;
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+$orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+
+$v-dark-blue: hsl(220, 13%, 13%);
+$dark-gray-blue: hsl(219, 9%, 45%);
+$gray-blue: hsl(220, 14%, 75%);
+$light-gray-blue: hsl(223, 64%, 98%);
+$white: hsl(0, 0%, 100%);
+$black: hsla(0, 0%, 0%, 75%);
+
+$text-fs: 1em;
+$title-fs: 1.75em;
+
+$normal-fw: 400;
+$bold-fw: 700;
 
 .body {
     height: 100vh;
     width: 100vw;
+    background-color: $white;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', 'Poppins',
+                 'Roboto', 'Montserrat', sans-serif;
 }
 
 .carousel-images {
@@ -14,41 +30,17 @@ $info-bg-color: darkblue;
 }
 
 .header {
-    background: $header-bg-color;
     height: 10%;
 }
 
 .main {
-    background: $main-bg-color;
     height: 90%;
-}
 
-.carousel {
-    background: $carousel-bg-color;
-    position: relative;
-    height: 40%;
-}
+    .carousel-section {
+        height: 40%;
+    }
 
-.carousel-buttons {
-    background: $carousel-btn-bg-color;
-    position: absolute;
-    top: 0;
-    margin-top: 50%;
-}
-
-.info {
-   width: 80%;
-   height: 60%;
-   background: $info-bg-color;
-}
-
-.col-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: stretch;
-}
-
-.full {
-    width: 100%;
+    .info {
+        height: 60%;
+    }
 }
