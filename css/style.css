@@ -19,13 +19,88 @@
 .header {
   background-color: rgb(209, 209, 209);
   height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.img01{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(138, 138, 138);
+}
+.img02{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(138, 138, 138);
+}
+.links{
+  display: none;
+}
+.Hamburgers{
+  position: relative;
+  width: 27px;
+  height: 25px;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  margin-top: 11px;
+  background-color: black;
+}
+.line::after{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 3px;
+  bottom: 2px;
+  background-color: black;
+}
+.line::before{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 3px;
+  top: 2px;
+  background-color: black;
+}
+
+#next{
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#previous{
+  position: absolute;
+  top: 45%;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  border: none;
+}
+.carousel-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color:  hsl(26, 100%, 55%);
+  padding: 5px;
+}
 .main {
   height: 90%;
 }
 .main .carousel-section {
   height: 40%;
+  position: relative;
 }
 .main .info {
   height: 60%;
