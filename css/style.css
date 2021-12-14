@@ -1,6 +1,5 @@
 @import url("https://fonts.google.com/specimen/Kumbh+Sans");
 .body {
-  height: 100vh;
   width: 100vw;
   background-color: white;
   overflow: hidden;
@@ -12,17 +11,25 @@
 }
 
 .header {
-  height: 10%;
+  height: 10vh;
+  background-color: blue;
+  width: 100%;
 }
 
 .main {
-  height: 90%;
+  height: 100%;
+  width: 100%;
+  background-color: red;
 }
 .main .carousel-section {
   height: 40%;
+  width: inherit;
+  background-color: yellow;
 }
 .main .info {
   height: 60%;
+  background-color: pink;
+  width: inherit;
 }
 
 /*# sourceMappingURL=style.css.map */
