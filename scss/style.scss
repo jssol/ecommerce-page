@@ -106,27 +106,27 @@ button {
         .production-description {
             width: 100%;
             color: $v-dark-blue;
+        }
 
-            .title {
-                font-size: $text-fs;
-                font-weight: $bold-fw;
-                color: $orange;
-                text-transform: uppercase;
-                letter-spacing: 2px;
-                margin-bottom: 0.75em;
-            }
+        .title {
+            font-size: $text-fs;
+            font-weight: $bold-fw;
+            color: $orange;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.75em;
+        }
 
-            .subtitle {
-                margin-bottom: 1em;
-                font-weight: $bold-fw;
-            }
+        .subtitle {
+            margin-bottom: 1em;
+            font-weight: $bold-fw;
+        }
 
-            .about-product {
-                font-size: $text-fs;
-                font-weight: $normal-fw;
-                margin-bottom: 1.25em;
-                color: $dark-gray-blue;
-            }
+        .about-product {
+            font-size: $text-fs;
+            font-weight: $normal-fw;
+            margin-bottom: 1.25em;
+            color: $dark-gray-blue;
         }
     }
 }
