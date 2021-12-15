@@ -131,6 +131,7 @@ button {
         }
 
         .pricing {
+            margin-bottom: 1.25em;
             @include flex(row, center, space-between);
 
             .discount {
