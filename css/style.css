@@ -6,44 +6,4 @@
   font-family: "Kumbh Sans", "Poppins", "Roboto", "Montserrat", sans-serif;
 }
 
-.carousel-images {
-  display: none;
-}
-
-.header {
-  height: 10vh;
-  background-color: blue;
-  width: 100%;
-}
-
-.main {
-  width: 100%;
-  background-color: red;
-}
-.main .carousel-section {
-  height: 40vw;
-  width: 100%;
-  background-color: yellow;
-}
-.main .info {
-  background-color: pink;
-  width: 100%;
-  padding: 0 1em;
-}
-.main .info .product-description {
-  width: 100%;
-}
-.main .info .product-description .title {
-  height: 1em;
-  background-color: red;
-}
-.main .info .product-description .subtitle {
-  height: 5em;
-  background-color: brown;
-}
-.main .info .product-description .about-product {
-  height: 5em;
-  background-color: blueviolet;
-}
-
 /*# sourceMappingURL=style.css.map */
