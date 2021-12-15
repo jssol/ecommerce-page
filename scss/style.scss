@@ -47,13 +47,10 @@ button {
     width: 100vw;
     background-color: $white;
     overflow-x: hidden;
+    overflow-y: scroll;
     font-family: 'Kumbh Sans', 'Poppins',
                  'Roboto', 'Montserrat', sans-serif;
 
-}
-
-* {
-    overflow-x: hidden;
 }
 
 .header {
