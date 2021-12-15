@@ -193,12 +193,13 @@ button {
             color: $white;
             background-color: $orange;
             border-radius: 0.5em;
-            height: 3.5em;
+            height: 3em;
             margin-bottom: 4em;
             font-size: $text-fs;
             font-weight: $bold-fw;
 
-            svg {
+            .order-cart {
+                display: block;
                 fill: $white !important;
                 margin-right: 1em;
             }

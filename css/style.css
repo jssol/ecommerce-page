@@ -175,12 +175,13 @@ button {
   color: white;
   background-color: #ff7d1a;
   border-radius: 0.5em;
-  height: 3.5em;
+  height: 3em;
   margin-bottom: 4em;
   font-size: 1em;
   font-weight: 700;
 }
-.main .info .order-button svg {
+.main .info .order-button .order-cart {
+  display: block;
   fill: white !important;
   margin-right: 1em;
 }
