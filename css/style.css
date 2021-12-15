@@ -158,7 +158,7 @@ button {
   background-color: transparent;
 }
 .main .info .items-number .order-amount {
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: 700;
   display: flex;
   flex-direction: row;

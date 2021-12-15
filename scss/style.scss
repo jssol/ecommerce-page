@@ -180,7 +180,7 @@ button {
             }
 
             .order-amount {
-                font-size: $text-fs;
+                font-size: 1.15em;
                 font-weight: $bold-fw;
                 @include flex(row, center, center);
                 align-self: center;
