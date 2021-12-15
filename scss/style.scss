@@ -37,8 +37,8 @@ button {
 
 .round-btn {
     @include flex(column, center, center);
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
 }
 
@@ -118,16 +118,15 @@ button {
             .carousel-button {
                 background-color: $white;
                 position: absolute;
-                top: 0;
-                margin-top: 28%;
+                top: 45%;
             }
 
             #previous {
-                left: 15px;
+                left: 18px;
             }
 
             #next {
-                right: 15px;
+                right: 18px;
             }
         }
 
