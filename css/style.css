@@ -38,6 +38,22 @@ button {
   width: 100%;
   height: 10vh;
 }
+.header .Hamburgers {
+  float: left;
+}
+.header .logo {
+  float: left;
+}
+.header .cart {
+  float: right;
+}
+.header .user {
+  float: right;
+}
+
+.nav-bar {
+  display: none;
+}
 
 .main {
   width: 100%;
