@@ -57,7 +57,7 @@ button {
 .header {
     width: 100%;
     height: 10vh;
-    padding: 0 1.5em;
+    padding: 0 1.25em;
     @include flex(row, center, space-between);
 
     .ham-logo {
