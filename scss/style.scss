@@ -131,20 +131,22 @@ button {
         }
 
         .pricing {
-            margin-bottom: 1.25em;
             @include flex(row, center, space-between);
+            margin-bottom: 1.25em;
 
             .discount {
                 width: 50%;
                 @include flex(row, center, space-between);
 
                 .discounted {
+                    margin-right: 0.75em;
                     font-size: $title-fs;
                     font-weight: $bold-fw;
                     color: $v-dark-blue;
                 }
 
                 .discount-rate {
+                    padding: 0.15em;
                     align-self: center;
                     justify-self: center;
                     @include flex(row, center, center);
