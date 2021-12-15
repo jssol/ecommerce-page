@@ -1,4 +1,5 @@
 @import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
 *,
 *::after,
 *::before {
@@ -35,16 +36,106 @@ button {
 }
 
 .header {
-  width: 100%;
+  display: flex;
+  align-items: center;
+   width: 100%;
   height: 10vh;
+}
+.logo h1{
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.img01{
+  float: right;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.img02{
+  float: right;
+  margin-left: 70px;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(182, 182, 182);
+}
+.links{
+  display: none;
+}
+.Hamburgers{
+  margin-left: 20px;
+  position: relative;
+  width: 25px;
+  height: 23px;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  margin-top: 10px;
+  background-color: black;
+}
+.line::after{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 3px;
+  bottom: 2px;
+  background-color: black;
+}
+.line::before{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 3px;
+  top: 2px;
+  background-color: black;
+}
+
+#next{
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#previous{
+  position: absolute;
+  top: 45%;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  border: none;
+}
+.carousel-button{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color:  hsl(0, 0%, 100%);
+  padding: 5px;
+}
+.carousel-images img{
+  display: none;
 }
 
 .main {
   width: 100%;
 }
 .main .carousel-section {
+  background-color:  hsl(26, 100%, 55%);
   height: 45vh;
-  background-color: lightcoral;
   width: 100%;
 }
 .main .carousel-section .carousel {
@@ -59,14 +150,13 @@ button {
 .main .carousel-section .carousel .carousel-button {
   background-color: white;
   position: absolute;
-  top: 0;
-  margin-top: 28%;
+  top: 45%;
 }
 .main .carousel-section .carousel #previous {
-  left: 15px;
+  left: 20px;
 }
 .main .carousel-section .carousel #next {
-  right: 15px;
+  right: 20px;
 }
 .main .carousel-section .carousel-images {
   display: none;
