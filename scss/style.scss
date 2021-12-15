@@ -186,6 +186,23 @@ button {
                 align-self: center;
             }
         }
+
+        .order-button {
+            width: 100%;
+            @include flex(row, center, center);
+            color: $white;
+            background-color: $orange;
+            border-radius: 0.5em;
+            height: 3.5em;
+            margin-bottom: 4em;
+            font-size: $text-fs;
+            font-weight: $bold-fw;
+
+            svg {
+                fill: $white !important;
+                margin-right: 1em;
+            }
+        }
     }
 }
 

@@ -166,6 +166,24 @@ button {
   justify-content: center;
   align-self: center;
 }
+.main .info .order-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ff7d1a;
+  border-radius: 0.5em;
+  height: 3.5em;
+  margin-bottom: 4em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.main .info .order-button svg {
+  fill: white !important;
+  margin-right: 1em;
+}
 
 .footer {
   width: 100%;
