@@ -120,7 +120,7 @@ button {
   color: #1d2025;
 }
 .main .info .pricing .discount .discount-rate {
-  padding: 0.125em;
+  padding: 0.075em;
   align-self: center;
   justify-self: center;
   display: flex;
