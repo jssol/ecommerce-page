@@ -203,6 +203,11 @@ button {
                 fill: $white !important;
                 margin-right: 1em;
             }
+
+            p {
+                align-self: center;
+                @include flex(row, center, center);
+            }
         }
     }
 }
