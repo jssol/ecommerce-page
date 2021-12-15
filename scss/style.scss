@@ -35,19 +35,37 @@ $bold-fw: 700;
 }
 
 .main {
-    height: 100%;
     width: 100%;
     background-color: red;
 
     .carousel-section {
-        height: 40%;
-        width: inherit;
+        height: 40vw;
+        width: 100%;
         background-color: yellow;
     }
 
     .info {
-        height: 60%;
         background-color: pink;
-        width: inherit;
+        width: 100%;
+        padding: 0 1em;
+
+        .product-description {
+            width: 100%;
+
+            .title {
+                height: 1em;
+                background-color: red;
+            }
+
+            .subtitle {
+                height: 5em;
+                background-color: brown;
+            }
+
+            .about-product {
+                height: 5em;
+                background-color: blueviolet;
+            }
+        }
     }
 }
