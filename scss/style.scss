@@ -44,11 +44,11 @@ button {
 
 .body {
     @include flex();
-    position: relative;
     width: 100vw;
     background-color: $white;
     overflow-x: hidden;
     overflow-y: scroll;
+    position: relative;
     font-family: 'Kumbh Sans', 'Poppins',
                  'Roboto', 'Montserrat', sans-serif;
 
