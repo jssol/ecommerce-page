@@ -63,10 +63,10 @@ button {
   margin-top: 28%;
 }
 .main .carousel-section .carousel #previous {
-  left: 25px;
+  left: 15px;
 }
 .main .carousel-section .carousel #next {
-  right: 25px;
+  right: 15px;
 }
 .main .carousel-section .carousel-images {
   display: none;
