@@ -144,6 +144,27 @@ button {
   align-items: center;
   justify-content: center;
 }
+.main .info .items-number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f8fd;
+  border-radius: 0.5em;
+  height: 3em;
+}
+.main .info .items-number .order-buttons {
+  background-color: transparent;
+}
+.main .info .items-number .order-amount {
+  font-size: 1em;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
 
 .footer {
   width: 100%;

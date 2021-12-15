@@ -167,6 +167,24 @@ button {
                 @include flex(row, center, center);
             }
         }
+
+        .items-number {
+            @include flex(row, center, space-between);
+            background-color: $light-gray-blue;
+            border-radius: 0.5em;
+            height: 3em;
+
+            .order-buttons {
+                background-color: transparent;
+            }
+
+            .order-amount {
+                font-size: $text-fs;
+                font-weight: $bold-fw;
+                @include flex(row, center, center);
+                align-self: center;
+            }
+        }
     }
 }
 
