@@ -38,17 +38,23 @@ button {
   width: 100%;
   height: 10vh;
 }
-.header .Hamburgers {
+.header .hamburger {
   float: left;
+  margin-left: 5em;
 }
 .header .logo {
   float: left;
+  margin-left: 5em;
 }
 .header .cart {
   float: right;
+  margin-right: 5em;
 }
 .header .user {
   float: right;
+  margin-right: 5em;
+  height: 3em;
+  width: 3em;
 }
 
 .nav-bar {

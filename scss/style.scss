@@ -58,20 +58,26 @@ button {
     width: 100%;
     height: 10vh;
 
-    .Hamburgers {
+    .hamburger {
         float: left;
+        margin-left: 5em;
     }
 
     .logo {
         float: left;
+        margin-left: 5em;
     }
 
     .cart {
         float: right;
+        margin-right: 5em;
     }
 
     .user {
         float: right;
+        margin-right: 5em;
+        height: 3em;
+        width: 3em;
     }
 }
 
