@@ -33,15 +33,17 @@ button {
   font-family: "Kumbh Sans", "Poppins", "Roboto", "Montserrat", sans-serif;
 }
 
+* {
+  overflow-x: hidden;
+}
+
 .header {
   width: 100%;
   height: 8vh;
-  background-color: #ffede0;
 }
 
 .main {
   width: 100%;
-  background-color: #ff7d1a;
 }
 .main .carousel-section {
   position: relative;
@@ -63,13 +65,13 @@ button {
   background-color: white;
   position: absolute;
   top: 0;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 .main .carousel-section .carousel #previous {
-  left: 15px;
+  left: 25px;
 }
 .main .carousel-section .carousel #next {
-  right: 15px;
+  right: 25px;
 }
 .main .carousel-section .carousel-images {
   display: none;
@@ -78,8 +80,7 @@ button {
   width: 100%;
   height: 60vh;
   /* temporary */
-  padding: 0 1em;
-  background-color: #1d2025;
+  padding: 1.25em;
 }
 
 .footer {

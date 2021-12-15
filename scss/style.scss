@@ -53,15 +53,17 @@ button {
 
 }
 
+* {
+    overflow-x: hidden;
+}
+
 .header {
     width: 100%;
     height: 8vh;
-    background-color: hsl(25, 100%, 94%);
 }
 
 .main {
     width: 100%;
-    background-color: hsl(26, 100%, 55%);
 
     .carousel-section {
         position: relative;
@@ -84,15 +86,15 @@ button {
                 background-color: $white;
                 position: absolute;
                 top: 0;
-                margin-top: 50%;
+                margin-top: 30%;
             }
 
             #previous {
-                left: 15px;
+                left: 25px;
             }
 
             #next {
-                right: 15px;
+                right: 25px;
             }
         }
 
@@ -104,8 +106,7 @@ button {
     .info {
         width: 100%;
         height: 60vh; /* temporary */
-        padding: 0 1em;
-        background-color:hsl(220, 13%, 13%);
+        padding: 1.25em;
     }
 }
 
