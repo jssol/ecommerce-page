@@ -55,6 +55,7 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 0.5em;
 }
 .header .ham-logo .logo {
   align-self: center;
@@ -76,9 +77,12 @@ button {
   align-items: center;
   justify-content: center;
 }
+.header .user-cart .user {
+  margin-left: 0.5em;
+}
 .header .user-cart .user img {
-  width: 2em;
-  height: 2em;
+  width: 40px;
+  height: 40px;
 }
 
 .nav-bar {
