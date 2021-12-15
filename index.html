@@ -1,123 +1,126 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  
-  <title>E-commerce product page</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(0, 50%, 0%); }
-  </style>
-</head>
-<body class="body">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>E-commerce product page</title>
 
-  <header class="header">
-    <div class="Hamburgers">
-      <div class="line"></div>
-    </div>
-    <div class="logo"><h1>Sneakers</h1></div>
+    <style>
+      .footer { font-size: 11px; text-align: center; }
+      .footer a { color: hsl(0, 50%, 0%); }
+    </style>
+  </head>
 
-    <ul class="links">
-      <li>Men</li>
-      <li>Women</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
+  <body class="body">
 
-    <div>
-      <img src="images/image-avatar.png" alt="" class="img01">
-    </div>
-
-    <div class="img02">
-      <img src="" alt="">
-    </div>
-  </header>
-
-  <main class="main">
-
-    <section class="carousel-section">
-
-      <div class="carousel">
-        <img class="carousel-image">
-          <button class="carousel-button" id="previous">
-            <img src="./images/icon-previous.svg" alt="previous">
-          </button>
-          <button class="carousel-button" id="next">
-            <img src="./images/icon-next.svg" alt="next">
-          </button>
+    <header class="header">
+      <div class="Hamburgers">
+        <div class="line"></div>
       </div>
-  
-      <div class="carousel-images">
-        <img class="carousel-other-images" src="images/image-product-1.jpg">
-        <img class="carousel-other-images">
-        <img class="carousel-other-images">
-        <img class="carousel-other-images">
+      <div class="logo"><h1>Sneakers</h1></div>
+
+      <ul class="links">
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+
+      <div>
+        <img src="images/image-avatar.png" alt="" class="img01">
       </div>
 
-    </section>
+      <div class="img02">
+        <img src="" alt="">
+      </div>
+    </header>
 
-    <section class="info">
+    <main class="main">
 
-      <section class="product-info">
+      <section class="carousel-section">
+
+        <div class="carousel">
+          <img class="carousel-image">
+          
+           <button class="round-btn carousel-button" id="previous">
+             <img src="./images/icon-previous.svg" alt="previous">
+           </button>
+          
+           <button class="round-btn carousel-button" id="next">
+             <img src="./images/icon-next.svg" alt="next">
+           </button>
+        </div>
+
+        <div class="carousel-images">
+          <img class="carousel-other-images">
+          <img class="carousel-other-images">
+          <img class="carousel-other-images">
+          <img class="carousel-other-images">
+        </div>
+
+      </section>
+
+      <section class="info">
 
         <article class="product-description">
-          
-          <h1 class="title">Sneaker Company</h1>
-  
-          <h2 class="subtitle">
-            Fall Limited Edition Sneakers
-          </h2>
+            
+            <h1 class="title">Sneaker Company</h1>
     
-          <p class="about-product">
-            These low-profile sneakers are your perfect casual wear companion. Featuring a 
-            durable rubber outer sole, they\'ll withstand everything the weather can offer.
-          </p>
-  
+            <h2 class="subtitle">
+              Fall Limited Edition Sneakers
+            </h2>
+      
+            <p class="about-product">
+              These low-profile sneakers are your perfect casual wear companion. Featuring a 
+              durable rubber outer sole, they'll withstand everything the weather can offer.
+            </p>
+    
         </article>
-  
-        <section class="pricing">
-  
-          <section class="discount">
-            <span class="discounted">$125.00</span>
-            <span class="discount-rate">50%</span>
-          </section>
-          <s class="original-price">$250.00</s>
-  
-        </section>
-  
-      </section>
     
-      <section class="order">
+        <section class="pricing">
+    
+          <section class="discount">
+              <p class="discounted">$125.00</p>
+              <p class="discount-rate">50%</p>
+          </section>
+
+          <p class="original-price"><s>$250.00</s></p>
+    
+        </section>
 
         <section class="items-number">
-          <button class="order-buttons" id="minus">
+
+          <button class="round-btn order-buttons" id="minus">
             <img src="./images/icon-minus.svg" alt="minus">
           </button>
-          <div id="order-amount">0</div>
-          <button class="order-buttons" id="plus">
+
+          <p id="order-amount"><b>0</b></p>
+
+          <button class="round-btn order-buttons" id="plus">
             <img src="./images/icon-plus.svg" alt="plus">
           </button>
+
         </section>
 
         <button class="order-button">
-          <img src="./images/icon-cart.svg" alt="cart-icon">
-          <span>Add to cart</span>
+          <svg class="order-cart" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill-rule="nonzero"/></svg>
+          <p>Add to cart</p>
         </button>
-
+        
       </section>
-      
-    </section>
 
-  </main>
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="twitter.com/jsivahera">Jonathan</a> and <a href="twitter.com/JoelJklm">Joel</a>.
-  </footer>
-</body>
+    </main>
+    
+    <footer class="footer">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.twitter.com/jsivahera">Jonathan</a> and <a href="https://www.twitter.com/JoelJklm">Joel</a>.
+    </footer>
+  </body>
+
 </html>
