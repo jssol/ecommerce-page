@@ -57,27 +57,37 @@ button {
 .header {
     width: 100%;
     height: 10vh;
+    padding: 0 1em;
+    @include flex(row, center, space-between);
 
-    .hamburger {
-        float: left;
-        margin-left: 5em;
+    .ham-logo {
+        @include flex(row, center, space-between);
+
+        .hamburger {
+            align-self: center;
+            @include flex(row, center, center);
+        }
+    
+        .logo {
+            align-self: center;
+            @include flex(row, center, center);
+        }
     }
 
-    .logo {
-        float: left;
-        margin-left: 5em;
-    }
+    .user-cart {
+        @include flex(row, center, space-between);
 
-    .cart {
-        float: right;
-        margin-right: 5em;
-    }
-
-    .user {
-        float: right;
-        margin-right: 5em;
-        height: 3em;
-        width: 3em;
+        .cart {
+            align-self: center;
+            @include flex(row, center, center);
+        }
+    
+        .user {
+            img {
+                width: 2em;
+                height: 2em;
+            }
+        }
     }
 }
 
