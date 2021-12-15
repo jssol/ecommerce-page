@@ -152,6 +152,7 @@ button {
   background-color: #f7f8fd;
   border-radius: 0.5em;
   height: 3em;
+  margin-bottom: 1.25em;
 }
 .main .info .items-number .order-buttons {
   background-color: transparent;
