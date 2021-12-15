@@ -44,6 +44,7 @@ button {
 
 .body {
     @include flex();
+    position: relative;
     width: 100vw;
     background-color: $white;
     overflow-x: hidden;
