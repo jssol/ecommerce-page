@@ -28,7 +28,6 @@ button {
   justify-content: start;
   width: 100vw;
   background-color: white;
-  position: relative;
   overflow-x: hidden;
   font-family: "Kumbh Sans", "Poppins", "Roboto", "Montserrat", sans-serif;
 }
@@ -46,7 +45,6 @@ button {
   width: 100%;
 }
 .main .carousel-section {
-  position: relative;
   height: 40vh;
   background-color: lightcoral;
   width: 100%;
@@ -57,7 +55,6 @@ button {
   position: relative;
 }
 .main .carousel-section .carousel .carousel-image {
-  position: relative;
   height: 100%;
   width: 100%;
 }
