@@ -185,6 +185,14 @@ button {
                 @include flex(row, center, center);
                 align-self: center;
             }
+
+            #minus {
+                margin-right: .5em;
+            }
+
+            #plus {
+                margin-left: .5em;
+            }
         }
 
         .order-button {

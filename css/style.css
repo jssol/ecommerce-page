@@ -166,6 +166,12 @@ button {
   justify-content: center;
   align-self: center;
 }
+.main .info .items-number #minus {
+  margin-right: 0.5em;
+}
+.main .info .items-number #plus {
+  margin-left: 0.5em;
+}
 .main .info .order-button {
   width: 100%;
   display: flex;
