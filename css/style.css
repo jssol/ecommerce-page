@@ -77,11 +77,11 @@ button {
   /* temporary */
   padding: 1.25em;
 }
-.main .info .production-description {
+.main .info .product-description {
   width: 100%;
   color: #1d2025;
 }
-.main .info .title {
+.main .info .product-description .title {
   font-size: 1em;
   font-weight: 700;
   color: #ff7d1a;
@@ -89,11 +89,11 @@ button {
   letter-spacing: 2px;
   margin-bottom: 0.75em;
 }
-.main .info .subtitle {
+.main .info .product-description .subtitle {
   margin-bottom: 1em;
   font-weight: 700;
 }
-.main .info .about-product {
+.main .info .product-description .about-product {
   font-size: 1em;
   font-weight: 400;
   margin-bottom: 1.25em;
