@@ -77,6 +77,28 @@ button {
   /* temporary */
   padding: 1.25em;
 }
+.main .info .production-description {
+  width: 100%;
+  color: #1d2025;
+}
+.main .info .production-description .title {
+  font-size: 1em;
+  font-weight: 700;
+  color: #ff7d1a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.75em;
+}
+.main .info .production-description .subtitle {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+.main .info .production-description .about-product {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 1.25em;
+  color: #68707d;
+}
 
 .footer {
   width: 100%;
