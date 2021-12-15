@@ -16,10 +16,40 @@ $title-fs: 1.75em;
 $normal-fw: 400;
 $bold-fw: 700;
 
+@mixin flex($direction : column, $align : center, $justify: start) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
 .body {
+    @include flex();
     width: 100vw;
     background-color: $white;
+    position: relative;
     overflow-x: hidden;
     font-family: 'Kumbh Sans', 'Poppins',
                  'Roboto', 'Montserrat', sans-serif;
+
+    * {
+        width: inherit;
+    }
+}
+
+.header {
+    height: 3em;
+    background-color:hsl(219, 9%, 45%);
+}
+
+.main {
+    height: 10em;
+    background-color: hsl(26, 100%, 55%);
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    background-color: indigo;
 }
