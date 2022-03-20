@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+
+$orange: hsl(26deg 100% 55%);
+$pale-orange: hsl(25deg 100% 94%);
+
+$v-dark-blue: hsl(220deg 13% 13%);
+$dark-gray-blue: hsl(219deg 9% 45%);
+$gray-blue: hsl(220deg 14% 75%);
+$light-gray-blue: hsl(223deg 64% 98%);
+$white: hsl(0deg 0% 100%);
+$black: hsl(0deg 0% 0% / 75%);
+
+$text-fs: 1em;
+$title-fs: 1.75em;
+
+$normal-fw: 400;
+$bold-fw: 700;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  background: transparent;
+}
