@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
 
-$orange: hsl(26, 100%, 55%);
-$pale-orange: hsl(25, 100%, 94%);
+$orange: hsl(26deg 100% 55%);
+$pale-orange: hsl(25deg 100% 94%);
 
-$v-dark-blue: hsl(220, 13%, 13%);
-$dark-gray-blue: hsl(219, 9%, 45%);
-$gray-blue: hsl(220, 14%, 75%);
-$light-gray-blue: hsl(223, 64%, 98%);
-$white: hsl(0, 0%, 100%);
-$black: hsla(0, 0%, 0%, 75%);
+$v-dark-blue: hsl(220deg 13% 13%);
+$dark-gray-blue: hsl(219deg 9% 45%);
+$gray-blue: hsl(220deg 14% 75%);
+$light-gray-blue: hsl(223deg 64% 98%);
+$white: hsl(0deg 0% 100%);
+$black: hsl(0deg 0% 0% / 75%);
 
 $text-fs: 1em;
 $title-fs: 1.75em;
