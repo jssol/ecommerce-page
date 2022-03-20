@@ -2,19 +2,23 @@
   "name": "ecommerce-page",
   "version": "1.0.0",
   "description": "![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "deploy": "gh-pages -d dist/",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jssol/ecommerce-page.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jonathan Sivahera",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/jssol/ecommerce-page/issues"
   },
-  "homepage": "https://github.com/jssol/ecommerce-page#readme"
+  "homepage": "https://github.com/jssol/ecommerce-page"
 }
